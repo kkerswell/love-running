@@ -321,5 +321,14 @@ hr {
             padding: 0 20px;
         }
 
+        #gallery {
+            column-count: 3;
+        }
+    }
 
+    @media screen and (max-width: 800px) {
+        #gallery {
+            column-count: 2;
+        }
+        
     }
